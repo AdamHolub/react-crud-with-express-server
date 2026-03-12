@@ -1,0 +1,22 @@
+{
+  "name": "react-crud-with-express-server",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+    "workspaces": [
+    "client",
+    "server"
+  ],
+"scripts": {
+  "dev": "concurrently \"npm run dev --workspace client\" \"npm start --workspace server\"",
+  "client": "npm run dev --workspace client",
+  "server": "npm start --workspace server"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
