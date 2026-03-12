@@ -46,7 +46,7 @@ Once started, the applications are available at:
 - Frontend: http://localhost:5173
 - Backend: http://localhost:3000
   
-### Prerequisites
+### 📋 Prerequisites
 Make sure you have installed:
 
 - Node.js **18.x or higher**
